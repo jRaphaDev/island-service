@@ -1,0 +1,8 @@
+spring:
+  data:
+    mongodb:
+      database: island
+      host: localhost
+      port: 27017
+      repositories:
+        type: auto
