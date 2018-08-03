@@ -17,5 +17,4 @@ public class Commerce implements Serializable {
     private Address[] address;
     private String[] urlImages;
     private Department department;
-
 }

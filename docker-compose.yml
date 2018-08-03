@@ -4,9 +4,8 @@ volumes:
   mongostorage:
 
 services:
-
   mongodb:
-      container_name: mongodb
+      container_name: mongodb_container
       image: alexpunct/mongo:3.4
       volumes:
         - mongostorage:/data/db
